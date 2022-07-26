@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/news_layout_height"
+    android:layout_marginStart="@dimen/news_layout_start"
+    android:layout_marginLeft="@dimen/news_layout_left"
+    android:layout_marginTop="@dimen/news_layout_top"
+    android:layout_marginEnd="@dimen/news_layout_end"
+    android:layout_marginRight="@dimen/news_layout_right"
+    android:layout_marginBottom="@dimen/news_layout_bottom"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:id="@+id/news_poster"
+        android:layout_width="@dimen/news_poster_width"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="@dimen/news_title_width"
+        android:layout_height="@dimen/news_title_height"
+        android:layout_marginStart="@dimen/news_layout_start"
+        android:layout_marginLeft="@dimen/news_layout_left"
+        android:layout_marginTop="@dimen/news_layout_top"
+        android:maxLines="1"
+        android:text="@string/news_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/news_title_text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/news_poster"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/news_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/news_layout_right"
+        android:text="@string/news_date"
+        android:textColor="@color/white"
+        android:textSize="@dimen/news_detail_text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <kr.co.prnd.readmore.ReadMoreTextView
+        android:id="@+id/news_details"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/news_detail_height"
+        android:layout_marginStart="@dimen/news_layout_start"
+        android:layout_marginTop="@dimen/news_detail_top"
+        android:maxLines="3"
+        android:text="@string/news_title"
+        app:readMoreText="@string/read_more_text"
+        app:readMoreMaxLine="2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/news_detail_text"
+        app:layout_constraintBottom_toTopOf="@+id/news_release_date"
+        app:layout_constraintEnd_toEndOf="@id/news_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/news_poster"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

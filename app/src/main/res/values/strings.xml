@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NYTapp</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_txt">sign up to continue</string>
+    <string name="sign_in_txt">sign in to continue</string>
+    <string name="switch_to_sign_up_txt">Do not have an account?</string>
+    <string name="switch_to_sign_in_txt">Already have an account?</string>
+
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="email">Email</string>
+
+    <string name="old_pass_text">Enter Old Password</string>
+    <string name="new_pass_text">Enter New Password</string>
+    <string name="reenter_new_pass_text">Re-Enter New Password</string>
+
+    <string name="sign_in_description_text">Enter your name, email id and password, to register with us.</string>
+
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_change_password">Change Password</string>
+    <string name="nav_about_us">About us</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+
+    <string name="update">UPDATE</string>
+    <string name="my_profile">My Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="about_us">About Us</string>
+
+
+    <string name="news_segment">News Segment</string>
+    <string name="news_most_popular">Most Popular</string>
+    <string name="news_title">News Title</string>
+    <string name="news_date">News Date</string>
+    <string name="read_more_text">Read more...</string>
+
+
+    <string name="no_connection_available">No Connection available!!!</string>
+</resources>

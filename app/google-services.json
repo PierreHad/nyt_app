@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19432311485",
+    "project_id": "nytapplication",
+    "storage_bucket": "nytapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19432311485:android:25484650e855193afa45d4",
+        "android_client_info": {
+          "package_name": "com.bmi.toshiba.nytapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19432311485-9hthobp37e8l4c95l8sebu74thjnsskn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr7TJ-yQbT_xqUHwYbA058VXitOkBArys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19432311485-9hthobp37e8l4c95l8sebu74thjnsskn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
